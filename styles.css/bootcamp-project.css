@@ -1,0 +1,15 @@
+@media (min-width: 768px) {
+  .news-letter {
+    width: 50%;
+  }
+}
+
+body {
+  height: 4000px
+}
+
+body::before {
+  display: block;
+  content: '';
+  height: 50px;
+}
